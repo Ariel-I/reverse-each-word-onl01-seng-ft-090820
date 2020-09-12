@@ -1,4 +1,4 @@
-def reverse_each_word_each(string)
+def reverse_each_word_each(string = "Hello and how are you?")
   first_array = string.split(" ")
   return_array = []
   first_array.each do|string|
@@ -7,7 +7,7 @@ def reverse_each_word_each(string)
   return_array.join(" ")
 end
 
-def reverse_each_word(string)
+def reverse_each_word(string="Hello and how are you?")
   array = string.split(" ") 
   new_array = []
   array.collect do|string| 
