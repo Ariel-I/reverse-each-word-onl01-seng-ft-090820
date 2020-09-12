@@ -1,4 +1,5 @@
-def reverse_each_word(phrase= "Hello there, how are you)
-puts "#{prhase}".each.reverse
+def reverse_each_word(string= "Hello there, how are you)"
+array = string.split("")
+
 
 end
