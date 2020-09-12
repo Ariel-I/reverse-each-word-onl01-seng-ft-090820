@@ -1,4 +1,4 @@
-def reverse_each_word(phrase= "I am a phrase")
-
+def reverse_each_word(phrase= "Tacocat")
+puts "#{prhase}".reverse
 
 end
